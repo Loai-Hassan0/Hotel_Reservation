@@ -1,5 +1,10 @@
+"""
+tester.py
+"""
+
 from datetime import date
-from reservation import *
+from database import Hotel_DB
+from hotel import Hotel
 
 database = Hotel_DB()
 golden_hotel = Hotel("Golden", "Cairo", 50)
